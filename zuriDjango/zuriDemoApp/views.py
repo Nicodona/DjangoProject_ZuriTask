@@ -2,4 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse('hi django this is my new project')
+    return HttpResponse('''<h1 style="color:slategray">hi django this is my new <span style="color: black">zuri task</span> project</h1>'
+                        <h2> I love zuri </h2>
+                        <a href ="https://i4g.zuriboard.com/"> this is zuri link</a>
+                        
+                       ''' )
