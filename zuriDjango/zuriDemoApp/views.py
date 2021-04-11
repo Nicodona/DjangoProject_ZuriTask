@@ -7,3 +7,6 @@ def home(request):
                         <a href ="https://i4g.zuriboard.com/"> this is zuri link</a>
                         
                        ''' )
+
+def log(request):
+    return render(request, 'log.html')
