@@ -10,4 +10,4 @@ def home(request):
                        ''' )
 
 def log(request):
-    return render(request, 'log.html')
+    return render(request, 'log.html', {'django welcomes you':'myname'})
