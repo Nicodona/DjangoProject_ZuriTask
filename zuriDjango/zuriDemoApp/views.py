@@ -6,8 +6,11 @@ def home(request):
                         <h2> I love zuri </h2>
                         <a href ="https://i4g.zuriboard.com/"> this is zuri link</a>
                         <p> this page is written using http response</p>
+                        <a href ="https://github.com/"> this is zuri link</a>
+                        
                         
                        ''' )
 
 def log(request):
     return render(request, 'log.html', {'django welcomes you':'myname'})
+
