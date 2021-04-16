@@ -4,10 +4,11 @@ from django.http import HttpResponse
 def home(request):
     return HttpResponse('''<h1 style="color:slategray">hi django this is my new <span style="color: black">zuri task</span> project</h1>'
                         <h2> I love zuri </h2>
-                        <a href ="https://i4g.zuriboard.com/"> this is zuri link</a>
+                          <br>
+                        <a href ="https://i4g.zuriboard.com/">zuriboard</a>
                         <p> this page is written using http response</p>
-                        <a href ="https://github.com/"> github</a>
-                        
+                        <a href ="/log"> visit Zuri</a>
+                        <p> this page returns render function</p>
                         
                        ''' )
 
