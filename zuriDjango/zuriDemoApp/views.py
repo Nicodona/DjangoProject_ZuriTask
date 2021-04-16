@@ -8,7 +8,7 @@ def home(request):
                         <a href ="https://i4g.zuriboard.com/">zuriboard</a>
                         <p> this page is written using http response</p>
                         <a href ="/log"> visit Zuri</a>
-                        <p> this page returns render function</p>
+                        <p> this page returns render function.</p>
                         
                        ''' )
 
